@@ -163,6 +163,7 @@ D:\SHLABS\EPizzaHub\EPizzaHub.API\obj\Debug\net8.0\EPizzaHub.API.AssemblyInfo.cs
 D:\SHLABS\EPizzaHub\EPizzaHub.API\obj\Debug\net8.0\EPizzaHub.API.csproj.CoreCompileInputs.cache
 D:\SHLABS\EPizzaHub\EPizzaHub.API\obj\Debug\net8.0\EPizzaHub.API.MvcApplicationPartsAssemblyInfo.cs
 D:\SHLABS\EPizzaHub\EPizzaHub.API\obj\Debug\net8.0\EPizzaHub.API.MvcApplicationPartsAssemblyInfo.cache
+D:\SHLABS\EPizzaHub\EPizzaHub.API\obj\Debug\net8.0\EPizzaHub.API.sourcelink.json
 D:\SHLABS\EPizzaHub\EPizzaHub.API\obj\Debug\net8.0\staticwebassets.build.json
 D:\SHLABS\EPizzaHub\EPizzaHub.API\obj\Debug\net8.0\staticwebassets.development.json
 D:\SHLABS\EPizzaHub\EPizzaHub.API\obj\Debug\net8.0\staticwebassets\msbuild.EPizzaHub.API.Microsoft.AspNetCore.StaticWebAssets.props

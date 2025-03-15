@@ -5,6 +5,7 @@ D:\SHLABS\EPizzaHub\EPizzaHub.Models\obj\Debug\net8.0\EPizzaHub.Models.Generated
 D:\SHLABS\EPizzaHub\EPizzaHub.Models\obj\Debug\net8.0\EPizzaHub.Models.AssemblyInfoInputs.cache
 D:\SHLABS\EPizzaHub\EPizzaHub.Models\obj\Debug\net8.0\EPizzaHub.Models.AssemblyInfo.cs
 D:\SHLABS\EPizzaHub\EPizzaHub.Models\obj\Debug\net8.0\EPizzaHub.Models.csproj.CoreCompileInputs.cache
+D:\SHLABS\EPizzaHub\EPizzaHub.Models\obj\Debug\net8.0\EPizzaHub.Models.sourcelink.json
 D:\SHLABS\EPizzaHub\EPizzaHub.Models\obj\Debug\net8.0\EPizzaHub.Models.dll
 D:\SHLABS\EPizzaHub\EPizzaHub.Models\obj\Debug\net8.0\refint\EPizzaHub.Models.dll
 D:\SHLABS\EPizzaHub\EPizzaHub.Models\obj\Debug\net8.0\EPizzaHub.Models.pdb

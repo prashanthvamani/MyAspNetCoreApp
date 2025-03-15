@@ -8,6 +8,7 @@ D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\obj\Debug\net8.0\EPizzaHub.Repositori
 D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\obj\Debug\net8.0\EPizzaHub.Repositories.AssemblyInfoInputs.cache
 D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\obj\Debug\net8.0\EPizzaHub.Repositories.AssemblyInfo.cs
 D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\obj\Debug\net8.0\EPizzaHub.Repositories.csproj.CoreCompileInputs.cache
+D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\obj\Debug\net8.0\EPizzaHub.Repositories.sourcelink.json
 D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\obj\Debug\net8.0\EPizzaHu.8861B897.Up2Date
 D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\obj\Debug\net8.0\EPizzaHub.Repositories.dll
 D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\obj\Debug\net8.0\refint\EPizzaHub.Repositories.dll
