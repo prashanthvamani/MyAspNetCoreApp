@@ -1,0 +1,11 @@
+D:\SHLABS\EPizzaHub\EPizzaHub.Models\bin\Debug\net8.0\EPizzaHub.Models.deps.json
+D:\SHLABS\EPizzaHub\EPizzaHub.Models\bin\Debug\net8.0\EPizzaHub.Models.dll
+D:\SHLABS\EPizzaHub\EPizzaHub.Models\bin\Debug\net8.0\EPizzaHub.Models.pdb
+D:\SHLABS\EPizzaHub\EPizzaHub.Models\obj\Debug\net8.0\EPizzaHub.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\SHLABS\EPizzaHub\EPizzaHub.Models\obj\Debug\net8.0\EPizzaHub.Models.AssemblyInfoInputs.cache
+D:\SHLABS\EPizzaHub\EPizzaHub.Models\obj\Debug\net8.0\EPizzaHub.Models.AssemblyInfo.cs
+D:\SHLABS\EPizzaHub\EPizzaHub.Models\obj\Debug\net8.0\EPizzaHub.Models.csproj.CoreCompileInputs.cache
+D:\SHLABS\EPizzaHub\EPizzaHub.Models\obj\Debug\net8.0\EPizzaHub.Models.dll
+D:\SHLABS\EPizzaHub\EPizzaHub.Models\obj\Debug\net8.0\refint\EPizzaHub.Models.dll
+D:\SHLABS\EPizzaHub\EPizzaHub.Models\obj\Debug\net8.0\EPizzaHub.Models.pdb
+D:\SHLABS\EPizzaHub\EPizzaHub.Models\obj\Debug\net8.0\ref\EPizzaHub.Models.dll

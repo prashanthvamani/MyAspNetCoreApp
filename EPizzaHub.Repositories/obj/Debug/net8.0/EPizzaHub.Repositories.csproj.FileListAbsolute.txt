@@ -1,0 +1,15 @@
+D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\bin\Debug\net8.0\EPizzaHub.Repositories.deps.json
+D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\bin\Debug\net8.0\EPizzaHub.Repositories.dll
+D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\bin\Debug\net8.0\EPizzaHub.Repositories.pdb
+D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\bin\Debug\net8.0\EPizzaHub.Domain.dll
+D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\bin\Debug\net8.0\EPizzaHub.Domain.pdb
+D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\obj\Debug\net8.0\EPizzaHub.Repositories.csproj.AssemblyReference.cache
+D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\obj\Debug\net8.0\EPizzaHub.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\obj\Debug\net8.0\EPizzaHub.Repositories.AssemblyInfoInputs.cache
+D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\obj\Debug\net8.0\EPizzaHub.Repositories.AssemblyInfo.cs
+D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\obj\Debug\net8.0\EPizzaHub.Repositories.csproj.CoreCompileInputs.cache
+D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\obj\Debug\net8.0\EPizzaHu.8861B897.Up2Date
+D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\obj\Debug\net8.0\EPizzaHub.Repositories.dll
+D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\obj\Debug\net8.0\refint\EPizzaHub.Repositories.dll
+D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\obj\Debug\net8.0\EPizzaHub.Repositories.pdb
+D:\SHLABS\EPizzaHub\EPizzaHub.Repositories\obj\Debug\net8.0\ref\EPizzaHub.Repositories.dll

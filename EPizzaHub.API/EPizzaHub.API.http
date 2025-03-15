@@ -1,0 +1,6 @@
+@EPizzaHub.API_HostAddress = http://localhost:5030
+
+GET {{EPizzaHub.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

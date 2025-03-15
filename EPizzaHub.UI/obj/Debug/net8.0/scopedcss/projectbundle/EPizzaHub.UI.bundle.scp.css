@@ -1,0 +1,147 @@
+/* _content/EPizzaHub.UI/Areas/Admin/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-0w8d845u5a] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-0w8d845u5a] {
+  color: #0077cc;
+}
+
+.btn-primary[b-0w8d845u5a] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-0w8d845u5a], .nav-pills .show > .nav-link[b-0w8d845u5a] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-0w8d845u5a] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-0w8d845u5a] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-0w8d845u5a] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-0w8d845u5a] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-0w8d845u5a] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/EPizzaHub.UI/Areas/User/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-ybob0wcbi1] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-ybob0wcbi1] {
+  color: #0077cc;
+}
+
+.btn-primary[b-ybob0wcbi1] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-ybob0wcbi1], .nav-pills .show > .nav-link[b-ybob0wcbi1] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-ybob0wcbi1] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-ybob0wcbi1] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-ybob0wcbi1] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-ybob0wcbi1] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-ybob0wcbi1] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/EPizzaHub.UI/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-anzr82dnba] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-anzr82dnba] {
+  color: #0077cc;
+}
+
+.btn-primary[b-anzr82dnba] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-anzr82dnba], .nav-pills .show > .nav-link[b-anzr82dnba] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-anzr82dnba] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-anzr82dnba] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-anzr82dnba] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-anzr82dnba] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-anzr82dnba] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
