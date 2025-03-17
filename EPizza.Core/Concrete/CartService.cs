@@ -26,7 +26,9 @@ namespace EPizzaHub.Core.Concrete
 
             if(cartdetails == null)
             {
-               int itemsadded = AddNewCart(request);
+                //int itemsadded = AddNewCart(request);
+
+                int itemsadded = AddNewCart(request);
 
                 return itemsadded > 0;
             }
