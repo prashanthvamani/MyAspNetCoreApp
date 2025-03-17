@@ -7,20 +7,36 @@
       "RelativeMoniker": "D:0:0:{D8CDF805-119F-4474-83C5-63F4E366CD8C}|EPizzaHub.API\\EPizzaHub.API.csproj|solutionrelative:epizzahub.api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17CA4CE3-DAAE-402E-99AD-620DF910C0B0}|EPizzaHub.Repositories\\EPizzaHub.Repositories.csproj|d:\\shlabs\\epizzahub\\epizzahub.repositories\\concrete\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17CA4CE3-DAAE-402E-99AD-620DF910C0B0}|EPizzaHub.Repositories\\EPizzaHub.Repositories.csproj|solutionrelative:epizzahub.repositories\\concrete\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9202363-D5A5-4B6B-A40B-A5A7205AA3DB}|EPizza.Core\\EPizzaHub.Core.csproj|d:\\shlabs\\epizzahub\\epizza.core\\contracts\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9202363-D5A5-4B6B-A40B-A5A7205AA3DB}|EPizza.Core\\EPizzaHub.Core.csproj|solutionrelative:epizza.core\\contracts\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9202363-D5A5-4B6B-A40B-A5A7205AA3DB}|EPizza.Core\\EPizzaHub.Core.csproj|d:\\shlabs\\epizzahub\\epizza.core\\mappers\\cartmappingextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9202363-D5A5-4B6B-A40B-A5A7205AA3DB}|EPizza.Core\\EPizzaHub.Core.csproj|solutionrelative:epizza.core\\mappers\\cartmappingextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9202363-D5A5-4B6B-A40B-A5A7205AA3DB}|EPizza.Core\\EPizzaHub.Core.csproj|d:\\shlabs\\epizzahub\\epizza.core\\concrete\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9202363-D5A5-4B6B-A40B-A5A7205AA3DB}|EPizza.Core\\EPizzaHub.Core.csproj|solutionrelative:epizza.core\\concrete\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B9202363-D5A5-4B6B-A40B-A5A7205AA3DB}|EPizza.Core\\EPizzaHub.Core.csproj|d:\\shlabs\\epizzahub\\epizza.core\\contracts\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9202363-D5A5-4B6B-A40B-A5A7205AA3DB}|EPizza.Core\\EPizzaHub.Core.csproj|solutionrelative:epizza.core\\contracts\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00EAE70-C77A-4DC5-8917-D9DC7944BD67}|EPizzaHub.Models\\EPizzaHub.Models.csproj|d:\\shlabs\\epizzahub\\epizzahub.models\\request\\addtocartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00EAE70-C77A-4DC5-8917-D9DC7944BD67}|EPizzaHub.Models\\EPizzaHub.Models.csproj|solutionrelative:epizzahub.models\\request\\addtocartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9202363-D5A5-4B6B-A40B-A5A7205AA3DB}|EPizza.Core\\EPizzaHub.Core.csproj|d:\\shlabs\\epizzahub\\epizza.core\\concrete\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9202363-D5A5-4B6B-A40B-A5A7205AA3DB}|EPizza.Core\\EPizzaHub.Core.csproj|solutionrelative:epizza.core\\concrete\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00EAE70-C77A-4DC5-8917-D9DC7944BD67}|EPizzaHub.Models\\EPizzaHub.Models.csproj|d:\\shlabs\\epizzahub\\epizzahub.models\\request\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00EAE70-C77A-4DC5-8917-D9DC7944BD67}|EPizzaHub.Models\\EPizzaHub.Models.csproj|solutionrelative:epizzahub.models\\request\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D00EAE70-C77A-4DC5-8917-D9DC7944BD67}|EPizzaHub.Models\\EPizzaHub.Models.csproj|d:\\shlabs\\epizzahub\\epizzahub.models\\response\\cartresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D00EAE70-C77A-4DC5-8917-D9DC7944BD67}|EPizzaHub.Models\\EPizzaHub.Models.csproj|solutionrelative:epizzahub.models\\response\\cartresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CA4CE3-DAAE-402E-99AD-620DF910C0B0}|EPizzaHub.Repositories\\EPizzaHub.Repositories.csproj|d:\\shlabs\\epizzahub\\epizzahub.repositories\\concrete\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CA4CE3-DAAE-402E-99AD-620DF910C0B0}|EPizzaHub.Repositories\\EPizzaHub.Repositories.csproj|solutionrelative:epizzahub.repositories\\concrete\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17CA4CE3-DAAE-402E-99AD-620DF910C0B0}|EPizzaHub.Repositories\\EPizzaHub.Repositories.csproj|d:\\shlabs\\epizzahub\\epizzahub.repositories\\contracts\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D8CDF805-119F-4474-83C5-63F4E366CD8C}|EPizzaHub.API\\EPizzaHub.API.csproj|d:\\shlabs\\epizzahub\\epizzahub.api\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8CDF805-119F-4474-83C5-63F4E366CD8C}|EPizzaHub.API\\EPizzaHub.API.csproj|solutionrelative:epizzahub.api\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9202363-D5A5-4B6B-A40B-A5A7205AA3DB}|EPizza.Core\\EPizzaHub.Core.csproj|d:\\shlabs\\epizzahub\\epizza.core\\concrete\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9202363-D5A5-4B6B-A40B-A5A7205AA3DB}|EPizza.Core\\EPizzaHub.Core.csproj|solutionrelative:epizza.core\\concrete\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,11 +62,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "AddtoCartRequest.cs",
+              "DocumentMoniker": "D:\\SHLABS\\EPizzaHub\\EPizzaHub.Models\\Request\\AddtoCartRequest.cs",
+              "RelativeDocumentMoniker": "EPizzaHub.Models\\Request\\AddtoCartRequest.cs",
+              "ToolTip": "D:\\SHLABS\\EPizzaHub\\EPizzaHub.Models\\Request\\AddtoCartRequest.cs",
+              "RelativeToolTip": "EPizzaHub.Models\\Request\\AddtoCartRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T17:53:25.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateUserRequest.cs",
+              "DocumentMoniker": "D:\\SHLABS\\EPizzaHub\\EPizzaHub.Models\\Request\\CreateUserRequest.cs",
+              "RelativeDocumentMoniker": "EPizzaHub.Models\\Request\\CreateUserRequest.cs",
+              "ToolTip": "D:\\SHLABS\\EPizzaHub\\EPizzaHub.Models\\Request\\CreateUserRequest.cs",
+              "RelativeToolTip": "EPizzaHub.Models\\Request\\CreateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T17:51:06.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartMappingExtension.cs",
+              "DocumentMoniker": "D:\\SHLABS\\EPizzaHub\\EPizza.Core\\Mappers\\CartMappingExtension.cs",
+              "RelativeDocumentMoniker": "EPizza.Core\\Mappers\\CartMappingExtension.cs",
+              "ToolTip": "D:\\SHLABS\\EPizzaHub\\EPizza.Core\\Mappers\\CartMappingExtension.cs",
+              "RelativeToolTip": "EPizza.Core\\Mappers\\CartMappingExtension.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T17:39:14.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CartResponseModel.cs",
               "DocumentMoniker": "D:\\SHLABS\\EPizzaHub\\EPizzaHub.Models\\Response\\CartResponseModel.cs",
               "RelativeDocumentMoniker": "EPizzaHub.Models\\Response\\CartResponseModel.cs",
@@ -67,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "ItemsController.cs",
               "DocumentMoniker": "D:\\SHLABS\\EPizzaHub\\EPizzaHub.API\\Controllers\\ItemsController.cs",
               "RelativeDocumentMoniker": "EPizzaHub.API\\Controllers\\ItemsController.cs",
@@ -86,14 +137,14 @@
               "RelativeDocumentMoniker": "EPizzaHub.API\\Controllers\\CartController.cs",
               "ToolTip": "D:\\SHLABS\\EPizzaHub\\EPizzaHub.API\\Controllers\\CartController.cs",
               "RelativeToolTip": "EPizzaHub.API\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAIAwwAUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-16T06:34:22.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "ItemService.cs",
               "DocumentMoniker": "D:\\SHLABS\\EPizzaHub\\EPizza.Core\\Concrete\\ItemService.cs",
               "RelativeDocumentMoniker": "EPizza.Core\\Concrete\\ItemService.cs",
@@ -106,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "IItemService.cs",
               "DocumentMoniker": "D:\\SHLABS\\EPizzaHub\\EPizza.Core\\Contracts\\IItemService.cs",
               "RelativeDocumentMoniker": "EPizza.Core\\Contracts\\IItemService.cs",
@@ -119,33 +170,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CartService.cs",
               "DocumentMoniker": "D:\\SHLABS\\EPizzaHub\\EPizza.Core\\Concrete\\CartService.cs",
               "RelativeDocumentMoniker": "EPizza.Core\\Concrete\\CartService.cs",
               "ToolTip": "D:\\SHLABS\\EPizzaHub\\EPizza.Core\\Concrete\\CartService.cs",
               "RelativeToolTip": "EPizza.Core\\Concrete\\CartService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwB4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-16T06:25:20.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ICartService.cs",
               "DocumentMoniker": "D:\\SHLABS\\EPizzaHub\\EPizza.Core\\Contracts\\ICartService.cs",
               "RelativeDocumentMoniker": "EPizza.Core\\Contracts\\ICartService.cs",
               "ToolTip": "D:\\SHLABS\\EPizzaHub\\EPizza.Core\\Contracts\\ICartService.cs",
               "RelativeToolTip": "EPizza.Core\\Contracts\\ICartService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-16T06:25:07.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "CartRepository.cs",
               "DocumentMoniker": "D:\\SHLABS\\EPizzaHub\\EPizzaHub.Repositories\\Concrete\\CartRepository.cs",
               "RelativeDocumentMoniker": "EPizzaHub.Repositories\\Concrete\\CartRepository.cs",
@@ -158,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "ICartRepository.cs",
               "DocumentMoniker": "D:\\SHLABS\\EPizzaHub\\EPizzaHub.Repositories\\Contracts\\ICartRepository.cs",
               "RelativeDocumentMoniker": "EPizzaHub.Repositories\\Contracts\\ICartRepository.cs",
@@ -171,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Cart.cs",
               "DocumentMoniker": "D:\\SHLABS\\EPizzaHub\\EPizzaHub.Domain\\Models\\Cart.cs",
               "RelativeDocumentMoniker": "EPizzaHub.Domain\\Models\\Cart.cs",

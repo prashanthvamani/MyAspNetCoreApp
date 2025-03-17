@@ -21,6 +21,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "EPizzaHub.API.Controllers.CartController",
+    "Method": "AdditemtoCart",
+    "RelativePath": "api/Cart/Add-Item-to-Cart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addtoCartRequest",
+        "Type": "EPizzaHub.Models.Request.AddtoCartRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EPizzaHub.API.Controllers.CartController",
+    "Method": "GetCartDetails",
+    "RelativePath": "api/Cart/get-cart-details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartid",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EPizzaHub.API.Controllers.ItemsController",
     "Method": "Get",
     "RelativePath": "api/Items/Get",

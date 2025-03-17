@@ -1,5 +1,7 @@
 ﻿using EPizzaHub.Core.Contracts;
+using EPizzaHub.Core.Mappers;
 using EPizzaHub.Domain.Models;
+using EPizzaHub.Models.Request;
 using EPizzaHub.Models.Response;
 using EPizzaHub.Repositories.Contracts;
 using System;
@@ -18,33 +20,52 @@ namespace EPizzaHub.Core.Concrete
             _cartRepository = cartRepository;
         }
 
+        public async Task<bool> AddItemtoCartAsyn(AddtoCartRequest request)
+        {
+            var cartdetails = await _cartRepository.GetCartAsync(request.Cartid);
+
+            if(cartdetails == null)
+            {
+               int itemsadded = AddNewCart(request);
+
+                return itemsadded > 0;
+            }
+            return false;
+
+        }
+
         public async Task<CartResponseModel> GetCartdetailsAysn(Guid cartId)
         {
             var cartdetails = await _cartRepository.GetCartAsync(cartId);
 
             if(cartdetails != null)
             {
-                CartResponseModel response = new CartResponseModel();
-
-                response.Id = cartdetails.Id;
-                response.UserId = cartdetails.UserId;
-                response.CreatedDate = cartdetails.CreatedDate;
-                response.Items = cartdetails.CartItems.Select(
-                    x => new CartItemFResponse
-                    {
-                        Id = x.Id,
-                        ItemId = x.ItemId,
-                        Quantity = x.Quantity,
-                        UnitPrice = x.UnitPrice,
-                    }).ToList();
-                response.Total = response.Items.Sum(x => x.Quantity * x.UnitPrice);
-                response.Tax = Math.Round(response.Total * 0.05m, 2);
-                response.Grandtotal = response.Total + response.Tax;
-
-                return response;
+                 return cartdetails.ConverttoUserResponseModel();
             }
 
             return null;
+        }
+
+        private int  AddNewCart(AddtoCartRequest request)
+        {
+            Cart? cartdetails = new Cart
+            {
+                Id = request.Cartid,
+                UserId = request.Userid,
+                CreatedDate = DateTime.UtcNow,
+                IsActive = true,
+            };
+            CartItem items = new CartItem
+            {
+                CartId = request.Cartid,
+                ItemId = request.Itemid,
+                UnitPrice = request.Unitprice,
+                Quantity = request.Quantity,
+            };
+
+            cartdetails.CartItems.Add(items);
+            _cartRepository.Add(cartdetails);
+            return _cartRepository.CommitChanges();
         }
     }
 }
