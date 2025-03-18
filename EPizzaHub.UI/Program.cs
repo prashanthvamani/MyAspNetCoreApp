@@ -24,6 +24,7 @@ builder.Services.AddHttpClient("ePizaaApiClient", options =>
 
 builder.Services.AddSession(options =>
 {
+    ///options.IdleTimeout = TimeSpan.FromMinutes(1);
     options.IdleTimeout = TimeSpan.FromMinutes(1);
 });
 
