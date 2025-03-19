@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EPizzaHub.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+282a73c970b2ee12de0504c79a18038854f12d2d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23da64390571606c67cc4c94cc6747d59d9596a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("EPizzaHub.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EPizzaHub.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
