@@ -398,3 +398,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+".vs/" 
+"EPizzaHub.Repositories/obj/" 
+".vs/" 
+"EPizzaHub.Repositories/obj/" 
