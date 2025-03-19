@@ -1,4 +1,5 @@
 ﻿using EPizzaHub.Core.Contracts;
+using EPizzaHub.Domain.Models;
 using EPizzaHub.Repositories.Contracts;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,15 @@ namespace EPizzaHub.Core.Concrete
             _cartRepository = cartRepository;
         }
 
+        public async Task<CartItem> GetCartItemAsync(Guid CartId)
+        {
+            var cartdetails = await _cartRepository.GetCartDetailsAysnc(CartId);
 
+            if(cartdetails !=null)
+            {
+                return cartdetails.con
+            }
+            return null;
+        }
     }
 }

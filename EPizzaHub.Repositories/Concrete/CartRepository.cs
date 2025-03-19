@@ -1,5 +1,6 @@
 ﻿using EPizzaHub.Domain.Models;
 using EPizzaHub.Repositories.Contracts;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,15 @@ namespace EPizzaHub.Repositories.Concrete
     {
         public CartRepository(ePizzaHubDBContext dbContext) : base(dbContext)
         {
+        }
+
+        public async Task<Cart> GetCartDetailsAysnc(Guid cartId)
+        {
+            return await _dbContext.Carts
+                .Include(x => x.CartItems)
+                .Where(x => x.Id == cartId && x.IsActive == true)
+                .FirstAsync();
+            //throw new NotImplementedException();
         }
     }
 }
