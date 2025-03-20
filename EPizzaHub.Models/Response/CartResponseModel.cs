@@ -17,9 +17,11 @@ namespace EPizzaHub.Models.Response
         public decimal Total {  get; set; }
         public decimal GrandTotal { get; set; }
         public decimal Tax { get; set; }
+
+        public List<CartItemResponse> Items { get; set; }
     }
 
-    public class CartItems
+    public class CartItemResponse
     {
         public int Id { get; set; }
 
