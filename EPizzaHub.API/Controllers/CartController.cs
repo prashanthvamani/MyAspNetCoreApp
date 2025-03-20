@@ -33,5 +33,14 @@ namespace EPizzaHub.API.Controllers
             return Ok(additemcart);
         }
 
+        [HttpPut]
+        [Route("Delete-item-cart")]
+        public async Task<IActionResult> DeleteItemfromCart(Guid CartId, int Itemid)
+        {
+            var deleted = await _cartService.DeleteItemsInCartAsync(CartId, Itemid);
+            return Ok(deleted);
+        }
+
+
     }
 }

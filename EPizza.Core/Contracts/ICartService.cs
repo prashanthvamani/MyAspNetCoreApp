@@ -14,5 +14,7 @@ namespace EPizzaHub.Core.Contracts
         Task<CartResponseModel> GetCartDetailsAysnc(Guid CartId);
 
         Task<bool> AddToCartAsync(AddToCartRequest request);
+
+        Task<bool> DeleteItemsInCartAsync(Guid cartId, int ID);
     }
 }

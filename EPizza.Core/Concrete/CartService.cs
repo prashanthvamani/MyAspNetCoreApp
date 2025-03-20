@@ -26,7 +26,10 @@ namespace EPizzaHub.Core.Concrete
 
                 return itemsAdded > 0;
             }
-            return false;
+            else
+            {
+                return AddItemsToCart(request, cartDetails);
+            }
         }
 
         public async Task<CartResponseModel> GetCartDetailsAysnc(Guid CartId)
@@ -65,6 +68,42 @@ namespace EPizzaHub.Core.Concrete
             return _cartRepository.CommitChanges();
         }
 
-     
+        private bool AddItemsToCart(AddToCartRequest request,Cart cartdetails) 
+        {
+            CartItem cartItems = cartdetails.CartItems.Where(x => x.ItemId == request.ItemId).FirstOrDefault();
+
+            if (cartItems == null)
+            {
+                CartItem cart = new CartItem
+                {
+                    CartId = request.CartId,
+                    ItemId = request.ItemId,
+                    UnitPrice = request.UnitPrice,
+                    Quantity = request.Quantity,
+                };
+
+                cartdetails.CartItems.Add(cart);
+            }
+            else
+            {
+                cartItems.Quantity += request.Quantity;
+            }
+
+            _cartRepository.Update(cartdetails);
+            int itemsadded = _cartRepository.CommitChanges();
+            return itemsadded > 0;
+            
+        }
+
+        public async Task<bool> DeleteItemsInCartAsync(Guid cartId, int ID)
+        {
+            var Item = await _cartRepository.DeleteCartIDAsync(cartId,ID); 
+
+            if(!Item)
+            {
+                throw new Exception($"Item with ItemID {ID} doesn't exists in cart with {cartId} ");
+            }
+            return Item;
+        }
     }
 }

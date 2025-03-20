@@ -15,6 +15,20 @@ namespace EPizzaHub.Repositories.Concrete
         {
         }
 
+        public async Task<bool> DeleteCartIDAsync(Guid CartId, int itemid)
+        {
+            var Items = await _dbContext.CartItems.FirstOrDefaultAsync(x => x.CartId == CartId && x.ItemId == itemid);
+
+            if(Items != null)
+            {
+                _dbContext.CartItems.Remove(Items);
+                int deleterecord = await _dbContext.SaveChangesAsync();
+
+                return deleterecord > 0;
+            }
+            return false;
+        }
+
         public async Task<Cart> GetCartDetailsAsync(Guid cartId)
         {
             return await _dbContext.Carts

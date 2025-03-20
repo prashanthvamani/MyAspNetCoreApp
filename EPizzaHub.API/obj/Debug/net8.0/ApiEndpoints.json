@@ -38,6 +38,27 @@
   },
   {
     "ContainingType": "EPizzaHub.API.Controllers.CartController",
+    "Method": "DeleteItemfromCart",
+    "RelativePath": "api/Cart/Delete-item-cart",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CartId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Itemid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EPizzaHub.API.Controllers.CartController",
     "Method": "GetCartItemsDetailsAsync",
     "RelativePath": "api/Cart/get-cart-details",
     "HttpMethod": "GET",
