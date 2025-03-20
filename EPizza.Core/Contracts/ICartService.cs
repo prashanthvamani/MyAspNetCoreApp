@@ -1,4 +1,5 @@
 ﻿using EPizzaHub.Domain.Models;
+using EPizzaHub.Models.Request;
 using EPizzaHub.Models.Response;
 using System;
 using System.Collections.Generic;
@@ -11,5 +12,7 @@ namespace EPizzaHub.Core.Contracts
     public interface ICartService
     {
         Task<CartResponseModel> GetCartDetailsAysnc(Guid CartId);
+
+        Task<bool> AddToCartAsync(AddToCartRequest request);
     }
 }

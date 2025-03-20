@@ -24,11 +24,13 @@ builder.Services.AddSingleton<Token>();
 builder.Services.AddTransient<IUserService, UserService>(); ///Registering Dependencies
 builder.Services.AddTransient<IAuthService, AuthService>();
 builder.Services.AddTransient<IItemService, ItemService>();
+builder.Services.AddTransient<ICartService, CartService>();
 
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IRoleRepository, RoleRepository>();
 builder.Services.AddScoped<IitemRepository, ItemRepository>();
+builder.Services.AddScoped<ICartRepository, CartRepository>();
 
 
 

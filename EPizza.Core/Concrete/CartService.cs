@@ -1,5 +1,8 @@
-﻿using EPizzaHub.Core.Contracts;
+﻿using Azure.Core;
+using EPizzaHub.Core.Contracts;
+using EPizzaHub.Core.Mappers;
 using EPizzaHub.Domain.Models;
+using EPizzaHub.Models.Request;
 using EPizzaHub.Models.Response;
 using EPizzaHub.Repositories.Contracts;
 
@@ -13,35 +16,55 @@ namespace EPizzaHub.Core.Concrete
             _cartRepository = cartRepository;
         }
 
+        public async Task<bool> AddToCartAsync(AddToCartRequest request)
+        {
+            var cartDetails = await _cartRepository.GetCartDetailsAsync(request.CartId);
+
+            if (cartDetails == null)
+            {
+                int itemsAdded = AddNewCart(request);
+
+                return itemsAdded > 0;
+            }
+            return false;
+        }
+
         public async Task<CartResponseModel> GetCartDetailsAysnc(Guid CartId)
         {
-            var cartdetails = await _cartRepository.GetCartDetailsAysnc(CartId);
+            var cartdetails = await _cartRepository.GetCartDetailsAsync(CartId);
 
             if (cartdetails != null)
             {
-                CartResponseModel response = new CartResponseModel();
-
-                response.Id = cartdetails.Id;
-                response.Userid = cartdetails.UserId;
-                response.CreatedDate = cartdetails.CreatedDate;
-                response.Items = cartdetails.CartItems.Select(
-                    x => new CartItemResponse
-                    {
-                        Id = x.Id,
-                        Itemid = x.ItemId,
-                        Quantity = x.Quantity,
-                        UnitPrice = x.UnitPrice
-                    }).ToList();
-
-                response.Total = response.Items.Sum(x => x.Quantity * x.UnitPrice);
-                response.Tax = Math.Round(response.Total * 0.05m, 2);
-                response.GrandTotal = response.Total + response.Tax;
-
-                return response;
+                return cartdetails.ConvertToCartResponseModel();
             }
 
             return null;
 
         }
+
+        private int AddNewCart(AddToCartRequest request)
+        {
+            Cart? cartDetails = new Cart
+            {
+                Id = request.CartId,
+                UserId = request.UserId,
+                CreatedDate = DateTime.UtcNow,
+                IsActive = true,
+            };
+
+            CartItem item = new CartItem
+            {
+                CartId = request.CartId,
+                ItemId = request.ItemId,
+                UnitPrice = request.UnitPrice,
+                Quantity = request.Quantity,
+            };
+
+            cartDetails.CartItems.Add(item);
+            _cartRepository.Add(cartDetails);
+            return _cartRepository.CommitChanges();
+        }
+
+     
     }
 }

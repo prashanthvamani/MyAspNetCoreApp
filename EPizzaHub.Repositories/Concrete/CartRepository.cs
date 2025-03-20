@@ -15,13 +15,23 @@ namespace EPizzaHub.Repositories.Concrete
         {
         }
 
-        public async Task<Cart> GetCartDetailsAysnc(Guid cartId)
+        public async Task<Cart> GetCartDetailsAsync(Guid cartId)
         {
             return await _dbContext.Carts
                 .Include(x => x.CartItems)
                 .Where(x => x.Id == cartId && x.IsActive == true)
                 .FirstAsync();
             //throw new NotImplementedException();
+
+
+            //return await _dbContext
+            //          .Carts
+            //          .Include(x => x.CartItems)
+            //          .Where(
+            //                 x => x.Id == cartId && x.IsActive == true)
+            //         .FirstOrDefaultAsync();
         }
+
+       
     }
 }

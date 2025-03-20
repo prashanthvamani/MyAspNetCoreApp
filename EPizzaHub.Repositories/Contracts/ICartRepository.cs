@@ -5,6 +5,6 @@ namespace EPizzaHub.Repositories.Contracts
 {
     public interface ICartRepository : IGenericRepository<Cart>
     {
-      Task<Cart> GetCartDetailsAysnc(Guid cartId);
+      Task<Cart> GetCartDetailsAsync(Guid cartId); 
     }
 }
