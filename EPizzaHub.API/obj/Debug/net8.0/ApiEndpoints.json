@@ -74,6 +74,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "EPizzaHub.API.Controllers.CartController",
+    "Method": "GetItemCount",
+    "RelativePath": "api/Cart/get-cart-Items-Count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartid",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EPizzaHub.API.Controllers.ItemsController",
     "Method": "Get",
     "RelativePath": "api/Items/Get",

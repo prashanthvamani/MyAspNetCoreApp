@@ -30,10 +30,25 @@ namespace EPizzaHub.Repositories.Concrete
             return _dbContext.SaveChanges();
         }
 
+        public void Delete(object id)
+        {
+            T entity = _dbContext.Set<T>().Find(id);
+            if (entity != null)
+            {
+                _dbContext.Set<T>().Remove(entity);
+            }
+        }
+
         public IEnumerable<T> GetAll()
         {
            return _dbContext.Set<T>().ToList();
         }
+
+        public void Remove(T entity)
+        {
+            _dbContext.Set<T>().Remove(entity);
+        }
+
         public void Update(T entity)
         {
             _dbContext.Set<T>().Update(entity);

@@ -9,5 +9,8 @@ namespace EPizzaHub.Repositories.Contracts
 
         Task<bool> DeleteCartIDAsync(Guid CartId, int id);
 
+
+        Task<int> GetCartItemsQuantity(Guid CartId);
+
     }
 }

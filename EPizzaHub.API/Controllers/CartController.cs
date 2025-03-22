@@ -18,6 +18,14 @@ namespace EPizzaHub.API.Controllers
 
 
         [HttpGet]
+        [Route("get-cart-Items-Count")]
+        public async Task<IActionResult> GetItemCount(Guid cartid)
+        {
+            var data = await _cartService.GetItemCount(cartid);
+            return Ok(data);
+        }
+
+        [HttpGet]
         [Route("get-cart-details")]
         public async Task<IActionResult> GetCartItemsDetailsAsync(Guid cartid)
         {
@@ -29,7 +37,7 @@ namespace EPizzaHub.API.Controllers
         [Route("Add-item-to-cart")]
         public async Task<IActionResult> AddItemCart([FromBody]AddToCartRequest addToCart)
         {
-            var additemcart = await _cartService.AddToCartAsync(addToCart);
+            var additemcart = await _cartService.AddItemToCartAsync(addToCart);
             return Ok(additemcart);
         }
 

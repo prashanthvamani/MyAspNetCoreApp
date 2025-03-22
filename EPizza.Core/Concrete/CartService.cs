@@ -1,5 +1,6 @@
 ﻿using Azure.Core;
 using EPizzaHub.Core.Contracts;
+using EPizzaHub.Core.CustomExceptions;
 using EPizzaHub.Core.Mappers;
 using EPizzaHub.Domain.Models;
 using EPizzaHub.Models.Request;
@@ -16,7 +17,7 @@ namespace EPizzaHub.Core.Concrete
             _cartRepository = cartRepository;
         }
 
-        public async Task<bool> AddToCartAsync(AddToCartRequest request)
+        public async Task<bool> AddItemToCartAsync(AddToCartRequest request)
         {
             var cartDetails = await _cartRepository.GetCartDetailsAsync(request.CartId);
 
@@ -101,9 +102,15 @@ namespace EPizzaHub.Core.Concrete
 
             if(!Item)
             {
-                throw new Exception($"Item with ItemID {ID} doesn't exists in cart with {cartId} ");
+                throw new RecordNotFoundException($"Item with ItemID {ID} doesn't exists in cart with {cartId} ");
             }
             return Item;
+        }
+
+        public async Task<int> GetItemCount(Guid CartId)
+        {
+            return await _cartRepository.GetCartItemsQuantity(CartId);
+           
         }
     }
 }

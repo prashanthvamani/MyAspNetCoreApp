@@ -1,4 +1,5 @@
-﻿using EPizzaHub.Models.Response;
+﻿using EPizzaHub.Core.CustomExceptions;
+using EPizzaHub.Models.Response;
 using System.Security.Authentication;
 using System.Text.Json;
 
@@ -48,6 +49,19 @@ namespace EPizzaHub.API.Middleware
                 catch (InvalidCredentialException ex)
                 {
                     context.Response.StatusCode = 401;
+                    var errorResponse = new
+                    {
+                        success = false,
+                        data = (object)null,
+                        message = ex.Message
+                    };
+                    var jsonResponse = JsonSerializer.Serialize(errorResponse);
+                    context.Response.Body = orginalbodystream;
+                    await context.Response.WriteAsync(jsonResponse);
+                }
+                catch (RecordNotFoundException ex)
+                {
+                    context.Response.StatusCode = 400;
                     var errorResponse = new
                     {
                         success = false,

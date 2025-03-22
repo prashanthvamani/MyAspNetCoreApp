@@ -34,7 +34,7 @@ namespace EPizzaHub.Repositories.Concrete
             return await _dbContext.Carts
                 .Include(x => x.CartItems)
                 .Where(x => x.Id == cartId && x.IsActive == true)
-                .FirstAsync();
+                .FirstOrDefaultAsync();
             //throw new NotImplementedException();
 
 
@@ -46,6 +46,9 @@ namespace EPizzaHub.Repositories.Concrete
             //         .FirstOrDefaultAsync();
         }
 
-       
+        public async Task<int> GetCartItemsQuantity(Guid CartId)
+        {
+            return await _dbContext.CartItems.Where(x => x.CartId == CartId).CountAsync();
+        }
     }
 }

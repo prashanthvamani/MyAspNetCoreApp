@@ -1,3 +1,4 @@
+using EPizzaHub.API.DI;
 using EPizzaHub.API.Middleware;
 using EPizzaHub.Core.Concrete;
 using EPizzaHub.Core.Contracts;
@@ -20,32 +21,11 @@ builder.Services.AddDbContext<ePizzaHubDBContext>(Options =>
     Options.UseSqlServer(builder.Configuration.GetConnectionString("Conn"));
 });
 
-builder.Services.AddSingleton<Token>();
-builder.Services.AddTransient<IUserService, UserService>(); ///Registering Dependencies
-builder.Services.AddTransient<IAuthService, AuthService>();
-builder.Services.AddTransient<IItemService, ItemService>();
-builder.Services.AddTransient<ICartService, CartService>();
+builder.Services.RegisterDBdependency()
+    .Registerservice()
+    .JwtRegisterservice(builder.Configuration);
 
 
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IRoleRepository, RoleRepository>();
-builder.Services.AddScoped<IitemRepository, ItemRepository>();
-builder.Services.AddScoped<ICartRepository, CartRepository>();
-
-
-
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(options =>
-    {
-        options.RequireHttpsMetadata = false;
-        options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
-        {
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Secret"])),
-            ValidIssuer = builder.Configuration["Jwt:Issuer"],
-            ValidAudience = builder.Configuration["Jwt:Audience"],
-            ClockSkew = TimeSpan.Zero,
-        };
-    });
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 

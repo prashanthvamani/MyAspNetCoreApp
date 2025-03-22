@@ -13,6 +13,9 @@ namespace EPizzaHub.Repositories.Contracts
         void Update(T entity);
         IEnumerable<T> GetAll();
 
+        void Delete(object id);
+
+        void Remove(T entity);
 
         int CommitChanges();
     }
