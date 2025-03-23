@@ -90,6 +90,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "EPizzaHub.API.Controllers.CartController",
+    "Method": "UpdateItemfromCart",
+    "RelativePath": "api/Cart/Update-item-cart",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CartId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Itemid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "newQuantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EPizzaHub.API.Controllers.ItemsController",
     "Method": "Get",
     "RelativePath": "api/Items/Get",

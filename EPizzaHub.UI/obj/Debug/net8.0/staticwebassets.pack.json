@@ -69,6 +69,10 @@
       "PackagePath": "staticwebassets\\images\\veggie_pizza.webp"
     },
     {
+      "Id": "D:\\SHLABS\\EPizzaHub\\EPizzaHub.UI\\wwwroot\\js\\Cart.js",
+      "PackagePath": "staticwebassets\\js\\Cart.js"
+    },
+    {
       "Id": "D:\\SHLABS\\EPizzaHub\\EPizzaHub.UI\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

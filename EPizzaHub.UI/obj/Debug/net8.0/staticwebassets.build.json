@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "15uzprmHjmhTyPLqx1+jaxCSK9394y6yC42v+9aybRY=",
+  "Hash": "YR4+FNKZNzjHGTZ1xaYCuyZlMMlP5JwR9YP/3MbDJPM=",
   "Source": "EPizzaHub.UI",
   "BasePath": "_content/EPizzaHub.UI",
   "Mode": "Default",
@@ -357,6 +357,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\veggie_pizza.webp"
+    },
+    {
+      "Identity": "D:\\SHLABS\\EPizzaHub\\EPizzaHub.UI\\wwwroot\\js\\Cart.js",
+      "SourceId": "EPizzaHub.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\SHLABS\\EPizzaHub\\EPizzaHub.UI\\wwwroot\\",
+      "BasePath": "_content/EPizzaHub.UI",
+      "RelativePath": "js/Cart.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Cart.js"
     },
     {
       "Identity": "D:\\SHLABS\\EPizzaHub\\EPizzaHub.UI\\wwwroot\\js\\site.js",

@@ -112,5 +112,10 @@ namespace EPizzaHub.Core.Concrete
             return await _cartRepository.GetCartItemsQuantity(CartId);
            
         }
+
+        public Task<bool> UpdateItemsInCartAsync(Guid cartId, int ID, int quantity)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

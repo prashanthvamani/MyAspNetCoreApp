@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EPizzaHub.Models.Response
+﻿namespace EPizzaHub.UI.Models.ApiResponses
 {
-    public class CartResponseModel
+
+    public class GetCartResponseModel
     {
         public Guid Id { get; set; }
 
@@ -14,7 +9,7 @@ namespace EPizzaHub.Models.Response
 
         public DateTime CreatedDate { get; set; }
 
-        public decimal Total {  get; set; }
+        public decimal Total { get; set; }
         public decimal GrandTotal { get; set; }
         public decimal Tax { get; set; }
 
@@ -33,6 +28,15 @@ namespace EPizzaHub.Models.Response
 
         public string ImageUrl { get; set; }
 
-        public string ItemName  { get; set; }
+        public string ItemName { get; set; }
+        public decimal ItemTotal
+        {
+            get
+            {
+                return Quantity * UnitPrice;
+            }
+        }
+
     }
+
 }

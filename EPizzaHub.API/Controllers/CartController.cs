@@ -50,5 +50,13 @@ namespace EPizzaHub.API.Controllers
         }
 
 
+        [HttpPut]
+        [Route("Update-item-cart")]
+        public async Task<IActionResult> UpdateItemfromCart(Guid CartId, int Itemid,int newQuantity)
+        {
+            var itemupdated = await _cartService.UpdateItemsInCartAsync(CartId, Itemid, newQuantity);
+            return Ok(itemupdated);
+        }
+
     }
 }

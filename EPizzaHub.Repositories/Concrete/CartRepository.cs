@@ -33,6 +33,7 @@ namespace EPizzaHub.Repositories.Concrete
         {
             return await _dbContext.Carts
                 .Include(x => x.CartItems)
+                .ThenInclude(x => x.Item)
                 .Where(x => x.Id == cartId && x.IsActive == true)
                 .FirstOrDefaultAsync();
             //throw new NotImplementedException();

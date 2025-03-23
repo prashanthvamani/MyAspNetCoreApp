@@ -24,7 +24,9 @@ namespace EPizzaHub.Core.Mappers
                     Id = x.Id,
                     Itemid = x.ItemId,
                     Quantity = x.Quantity,
-                    UnitPrice = x.UnitPrice
+                    UnitPrice = x.UnitPrice,
+                    ImageUrl = x.Item.ImageUrl,
+                    ItemName = x.Item.Name
                 }).ToList();
 
             response.Total = response.Items.Sum(x => x.Quantity * x.UnitPrice);

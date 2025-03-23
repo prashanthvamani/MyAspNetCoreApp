@@ -18,6 +18,10 @@ namespace EPizzaHub.Core.Contracts
 
         Task<bool> DeleteItemsInCartAsync(Guid cartId, int ID);
 
+        Task<bool> UpdateItemsInCartAsync(Guid cartId, int ID,int quantity);
+
         Task<int> GetItemCount(Guid CartId);
+
+
     }
 }
