@@ -33,7 +33,7 @@ namespace EPizzaHub.Core.JWTToken
                         //new Claim("IsAdmin","true"),
                         new Claim(ClaimTypes.Name, response.Name),
                         new Claim(ClaimTypes.Email,response.Email),
-                        new Claim("IsAdmin","true"),
+                        new Claim("IsAdmin", response.Roles.Any(x => x.Equals("Admin")).ToString()),
                         new Claim("Roles", JsonSerializer.Serialize(response.Roles))
                         ]),
 

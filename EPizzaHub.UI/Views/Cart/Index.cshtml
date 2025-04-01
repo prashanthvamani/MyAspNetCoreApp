@@ -63,15 +63,24 @@
                                 <td>@Model.GrandTotal</td>
                             </tr>
                         </table>
-                      @*   @if(CurrentUser == null){
-                            <a asp-action="Login" asp-controller="Login"  class="btn btn-success">Checkout</a>
+                        @if (CurrentUser == null)
+                        {
+                            <a asp-action="Login" asp-controller="Login" class="btn btn-success">Checkout</a>
                         }
-                        else{
+                        else
+                        {
                             <a asp-action="Checkout" asp-controller="Cart" class="btn btn-success">Checkout</a>
-                        } *@
+                        }
                     </div>
                 </div>
             </div>
         </div>
+    }
+    else
+    {
+        <div>
+            <h4>No Items were added in the Cart,please add some items</h4>
+        </div>
+
     }
 </div>

@@ -40,6 +40,7 @@ namespace EPizzaHub.UI.Controllers
             }
         }
 
+        [HttpGet("Index")]
         public async Task<IActionResult> Index()
         {
             using var httpClient = _httpClientFactory.CreateClient("ePizaaApiClient");
@@ -68,6 +69,12 @@ namespace EPizzaHub.UI.Controllers
 
             return Json(new { Count = 1 });
 
+        }
+
+        [HttpGet("Checkout")]
+        public IActionResult Checkout()
+        {
+            return View();
         }
     }
 }
